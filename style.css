@@ -67,7 +67,7 @@ img{display:block;max-width:100%}
   content:"";position:absolute;inset:0;border-radius:999px 999px 0 0;
   background:linear-gradient(180deg,#3559ff 0%,#4d6dff 60%,#6b86ff 100%);
 }
-.arch img{position:absolute;left:0;bottom:0;width:100%;max-width:none;height:auto}
+.arch img{position:absolute;left:0;bottom:0;width:100%;max-width:none;height:auto;opacity:var(--foto-opacita,.82)}
 .arch .mono{
   position:absolute;inset:0;display:grid;place-items:center;
   font-size:clamp(90px,12vw,150px);font-weight:700;letter-spacing:-.05em;color:rgba(255,255,255,.9);
