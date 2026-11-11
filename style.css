@@ -62,11 +62,12 @@ img{display:block;max-width:100%}
 .arch{
   position:absolute;left:50%;bottom:0;transform:translateX(-50%);
   width:clamp(260px,34vw,440px);height:clamp(380px,60vh,580px);
-  border-radius:999px 999px 0 0;
-  background:linear-gradient(180deg,#3559ff 0%,#6b8bff 70%,#a9bbff 100%);
-  overflow:hidden;
 }
-.arch img{position:absolute;inset:auto 0 0 0;width:100%;height:100%;object-fit:cover;object-position:top}
+.arch::before{
+  content:"";position:absolute;inset:0;border-radius:999px 999px 0 0;
+  background:linear-gradient(180deg,#3559ff 0%,#4d6dff 60%,#6b86ff 100%);
+}
+.arch img{position:absolute;left:-22%;bottom:0;width:144%;max-width:none;height:auto;max-height:104%;object-fit:contain;object-position:bottom}
 .arch .mono{
   position:absolute;inset:0;display:grid;place-items:center;
   font-size:clamp(90px,12vw,150px);font-weight:700;letter-spacing:-.05em;color:rgba(255,255,255,.9);
