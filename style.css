@@ -61,7 +61,7 @@ img{display:block;max-width:100%}
 }
 .arch{
   position:absolute;left:50%;bottom:0;transform:translateX(-50%);
-  width:clamp(260px,32vw,420px);aspect-ratio:1250/1380;
+  width:clamp(260px,34vw,470px);aspect-ratio:1250/1230;
 }
 .arch::before{
   content:"";position:absolute;inset:0;border-radius:999px 999px 0 0;
@@ -165,7 +165,7 @@ a.work:hover .meta i{background:var(--blue);transform:rotate(45deg)}
   .hero{min-height:740px}
   .hero-copy{max-width:calc(100% - 36px);bottom:auto;top:120px}
   .stats{left:18px;right:18px;width:auto;grid-template-columns:1fr 1fr;bottom:18px}
-  .arch{width:min(76vw,330px);bottom:0}
+  .arch{width:min(94vw,420px);bottom:0}
   .ghost{top:30%}
   .p1{left:6%;top:52%}.p2{left:auto;right:6%;top:46%}
   .stat{padding:14px 16px}.stat b{font-size:28px}
