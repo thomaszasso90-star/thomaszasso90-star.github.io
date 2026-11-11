@@ -138,6 +138,7 @@ a.work:hover .meta i{background:var(--blue);transform:rotate(45deg)}
 .cta-row{margin-top:36px;display:flex;flex-wrap:wrap;gap:22px 30px;align-items:center}
 .cta .btn span,.cta .btn i{background:#fff;color:var(--ink)}
 .cta .btn:hover span,.cta .btn:hover i{background:var(--ink);color:#fff}
+.contacts{display:flex;flex-direction:column;gap:10px;align-items:flex-start}
 .mail{color:#fff;font-size:18px;border-bottom:1px solid rgba(255,255,255,.4);padding-bottom:2px}
 .mail:hover{border-color:#fff}
 
