@@ -96,7 +96,7 @@ section{padding:clamp(60px,9vw,120px) clamp(18px,4vw,56px)}
 h2{font-size:clamp(32px,4.4vw,58px);letter-spacing:-.035em;line-height:1.02;font-weight:600;max-width:15ch}
 .about{display:grid;grid-template-columns:1fr 2.1fr;gap:clamp(20px,5vw,80px);background:var(--paper-2)}
 .big{font-size:clamp(24px,3.2vw,42px);line-height:1.12;letter-spacing:-.03em;font-weight:500}
-.small{margin-top:28px;max-width:52ch;color:var(--muted);font-size:17px;line-height:1.55}
+.small{margin-top:20px;max-width:52ch;color:var(--muted);font-size:17px;line-height:1.55}
 
 .services{background:#fff}
 .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:48px}
@@ -176,3 +176,7 @@ a.work:hover .meta i{background:var(--blue);transform:rotate(45deg)}
   .hero{min-height:800px}
   .work.wide img{aspect-ratio:16/10}
 }
+
+.note{max-width:60ch;margin:-6px 0 28px;color:var(--muted);font-size:16px;line-height:1.55}
+.about-cta{display:flex;flex-wrap:wrap;align-items:center;gap:14px 24px;margin-top:32px}
+.about-cta .call{color:var(--muted);font-size:16px;text-decoration:underline;text-underline-offset:4px}
